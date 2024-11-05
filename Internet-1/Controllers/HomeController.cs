@@ -27,18 +27,21 @@ namespace Internet_1.Controllers
             return View(productModels);
         }
 
-
-        public IActionResult TestWithLayout()
+        public IActionResult Register()
+        {
+            return View();
+        }
+        public IActionResult Login()
         {
             return View();
         }
 
-        public IActionResult TestWithOutLayout()
+        public IActionResult Logout()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult AccessDenied()
         {
             return View();
         }

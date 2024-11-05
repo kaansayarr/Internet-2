@@ -50,6 +50,8 @@ namespace Internet_1.Controllers
                 return View(model);
             }
             var product = _mapper.Map<Product>(model);
+            product.Created = DateTime.Now;
+            product.Updated = DateTime.Now;
             await _productRepository.AddAsync(product);
             _notyf.Success("Ürün Eklendi...");
             return RedirectToAction("Index");
@@ -83,6 +85,7 @@ namespace Internet_1.Controllers
             product.Price = model.Price;
             product.IsActive = model.IsActive;
             product.CategoryId = model.CategoryId;
+            product.Updated = DateTime.Now;
 
             await _productRepository.UpdateAsync(product);
             _notyf.Success("Ürün Güncellendi...");

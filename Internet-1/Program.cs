@@ -2,6 +2,7 @@ using AspNetCoreHero.ToastNotification;
 using AutoMapper;
 using Internet_1.Models;
 using Internet_1.Repositories;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -23,6 +24,16 @@ builder.Services.AddNotyf(config =>
     config.IsDismissable = true;
     config.Position = NotyfPosition.BottomRight;
 });
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(opt =>
+    {
+        opt.Cookie.Name = "CookieAuthApp";
+        opt.ExpireTimeSpan = TimeSpan.FromDays(3);
+        opt.LoginPath = "/Home/Login";
+        opt.LogoutPath = "/Home/Logout";
+        opt.AccessDeniedPath = "/Home/AccessDenied";
+        opt.SlidingExpiration = false;
+    });
 
 
 

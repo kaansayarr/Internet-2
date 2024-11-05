@@ -19,6 +19,8 @@
             <td>Adı</td>
             <td>Fiyatı</td>
             <td>Durumu</td>
+            <th>Eklenme</th>
+            <th>Güncellenme</th>
             <td>İşlemler</td>
         </tr>
     </thead>
@@ -41,6 +43,8 @@
 
 
                 </td>
+                <td>@product.Created</td>
+                <td>@product.Updated</td>
                 <td>
                     <a asp-action="Update" asp-controller="Product" class="btn btn-primary btn-sm" asp-route-id="@product.Id">Düzenle</a>
                     <a asp-action="Delete" asp-controller="Product" class="btn btn-danger btn-sm" asp-route-id="@product.Id">Sil</a>

@@ -42,6 +42,8 @@ namespace Internet_1.Controllers
                 return View(model);
             }
             var category = _mapper.Map<Category>(model);
+            category.Created = DateTime.Now;
+            category.Updated = DateTime.Now;
             await _categoryRepository.AddAsync(category);
             _notyf.Success("Kategori Eklendi...");
             return RedirectToAction("Index");
@@ -65,6 +67,7 @@ namespace Internet_1.Controllers
             var category = await _categoryRepository.GetByIdAsync(model.Id);
             category.Name = model.Name;
             category.IsActive = model.IsActive;
+            category.Updated = DateTime.Now;
             await _categoryRepository.UpdateAsync(category);
             _notyf.Success("Kategori Güncellendi...");
             return RedirectToAction("Index");

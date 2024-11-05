@@ -2,11 +2,8 @@
 
 namespace Internet_1.ViewModels
 {
-    public class ProductModel
+    public class ProductModel : BaseModel
     {
-        public int Id { get; set; }
-
-
 
 
         [Display(Name = "Ürün Adı")]
@@ -29,9 +26,6 @@ namespace Internet_1.ViewModels
         [Required(ErrorMessage = "Ürün Fiyatı Giriniz!")]
         public decimal Price { get; set; }
 
-
-        [Display(Name = "Aktif")]
-        public bool IsActive { get; set; }
 
 
         [Display(Name = "Kategori")]
