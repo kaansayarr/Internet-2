@@ -3,11 +3,13 @@ using AutoMapper;
 using Internet_1.Models;
 using Internet_1.Repositories;
 using Internet_1.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Internet_1.Controllers
 {
+    [Authorize]
     public class ProductController : Controller
     {
         private readonly ProductRepository _productRepository;

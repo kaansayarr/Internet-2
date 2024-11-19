@@ -3,10 +3,12 @@ using AutoMapper;
 using Internet_1.Models;
 using Internet_1.Repositories;
 using Internet_1.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Internet_1.Controllers
 {
+    [Authorize]
     public class CategoryController : Controller
     {
         private readonly CategoryRepository _categoryRepository;

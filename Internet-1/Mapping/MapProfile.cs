@@ -11,6 +11,7 @@ namespace Internet_1.Mapping
             CreateMap<Product, ProductModel>().ReverseMap();
             CreateMap<Category, CategoryModel>().ReverseMap();
             CreateMap<User, UserModel>().ReverseMap();
+            CreateMap<User, RegisterModel>().ReverseMap();
         }
     }
 }
