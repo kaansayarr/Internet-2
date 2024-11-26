@@ -12,6 +12,7 @@ namespace Internet_1.Mapping
             CreateMap<Category, CategoryModel>().ReverseMap();
             CreateMap<User, UserModel>().ReverseMap();
             CreateMap<User, RegisterModel>().ReverseMap();
+            CreateMap<Todo, TodoModel>().ReverseMap();
         }
     }
 }
