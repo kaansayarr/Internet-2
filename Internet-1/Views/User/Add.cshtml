@@ -33,15 +33,7 @@
                 <input asp-for="Password" class="form-control" />
                 <span class="text-danger" asp-validation-for="Password"></span>
             </div>
-            <div class="mb-3">
-                <label asp-for="Role"></label>
-                <select asp-for="Role" class="form-control">
 
-                    <option value="Uye">Normal Üye</option>
-                    <option value="Admin">Yönetici Üye</option>
-                </select>
-                <span class="text-danger" asp-validation-for="Role"></span>
-            </div>
             <div class="mb-3">
                 <input type="submit" value="Kaydet" class="btn btn-sm btn-primary" />
             </div>

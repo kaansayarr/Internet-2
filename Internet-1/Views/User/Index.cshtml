@@ -26,14 +26,7 @@
                 <td>@item.UserName</td>
                 <td>@item.Email</td>
                 <td>
-                    @if (item.Role == "Uye")
-                    {
-                        <span class="badge bg-info text-white">Normal Üye</span>
-                    }
-                    @if (item.Role == "Admin")
-                    {
-                        <span class="badge bg-success text-white">Yönetici Üye</span>
-                    }
+                    <a asp-action="UserRole" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Yetkiler</a>
                 </td>
                 <td>
                     <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Düzenle</a>
