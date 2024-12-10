@@ -1,0 +1,31 @@
+﻿@model Internet_1.Models.CustomUser
+
+<h2>Edit User</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" name="Id" value="@Model.Id" /> <!-- Hidden field to carry user ID -->
+    
+    <div class="form-group">
+        <label for="UserName">Username</label>
+        <input type="text" id="UserName" name="UserName" class="form-control" value="@Model.UserName" />
+    </div>
+
+    <div class="form-group">
+        <label for="Rol">Role</label>
+        <select id="Rol" name="Rol" class="form-control">
+            <!option value="admin" @(Model.Rol == "admin" ? "selected" : "")>Admin</!option>
+            <!option value="egitmen" @(Model.Rol == "egitmen" ? "selected" : "")>Eğitmen</!option>
+            <!option value="user" @(Model.Rol == "user" ? "selected" : "")>User</!option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" id="Email" name="Email" class="form-control" value="@Model.Email" readonly />
+    </div>
+
+    <button type="submit" class="btn btn-success">Kaydet</button>
+</form>
+
+<!-- Back to Index Button -->
+<a href="@Url.Action("Index", "Admin")" class="btn btn-secondary">Back to User List</a>

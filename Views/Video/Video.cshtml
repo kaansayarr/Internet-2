@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Internet_1.Models.Video>
+
+
+    <h1>Videolar</h1>
+
+@{
+    ViewData["Title"] = "Video List";
+}
+
+<h2>Video List</h2>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Başlık</th>
+                <th>Video</th>
+                <th>Açıklama</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var video in Model)
+            {
+                <tr>
+                    <td>@video.Id</td>
+
+                    <td>@video.Title</td>
+                    <td>
+                        <video controls width="300">
+                            <source src="@video.Url" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </td>
+                 
+                    <td>@video.Description</td>
+                  
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No videos available.</p>
+}

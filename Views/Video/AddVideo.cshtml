@@ -1,0 +1,50 @@
+﻿@model Internet_1.Models.Video
+
+
+<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.6.0.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/mvc/5.2.0/jquery.validate.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/mvc/5.2.0/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+@{
+    ViewBag.Title = "Add Video";
+}
+
+<h2>Add Video</h2>
+
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@using (Html.BeginForm("AddVideo", "Video", FormMethod.Post))
+{
+
+   <div>
+       <h1>SELAMINALEYKÜM</h1>
+   </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Title)
+        @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Title)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Url)
+        @Html.TextBoxFor(m => m.Url, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Url)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Description)
+        @Html.TextAreaFor(m => m.Description, new { @class = "form-control", rows = 4 })
+        @Html.ValidationMessageFor(m => m.Description)
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Video</button>
+}
+

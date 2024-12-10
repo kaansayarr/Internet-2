@@ -1,0 +1,94 @@
+﻿@model Internet_1.Models.AdminViewModel
+
+
+<h1>Admin Panel</h1>
+
+<h2>Manage Users</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.Users)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>@user.Rol</td>
+                <td>
+                    <!-- Link to Edit page -->
+                    <a href="@Url.Action("Edit", "Admin", new { id = user.Id })" class="btn btn-warning">Edit</a>
+
+                    <!-- Form for Delete action -->
+                    <form asp-action="DeleteUser" method="post" asp-route-id="@user.Id" style="display:inline;" onsubmit="return confirm('Bu kullanıcıyı silmek istediğinizdne emin misiniz?');">
+                        <input type="hidden" name="id" value="@user.Id" />
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Link to Create new User -->
+<a href="@Url.Action("Create", "Admin")" class="btn btn-primary">Yeni kullanıcı Oluştur</a>
+
+
+<h2>Videolar</h2>
+
+@if (Model.Videos != null && Model.Videos.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+
+                <th>Başlık</th>
+                <th>Video</th>
+                <th>Açıklama</th>
+                <th>Seçenekler</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var video in Model.Videos)
+            {
+                <tr>
+                    <td>@video.Id</td>
+
+                    <td>@video.Title</td>
+                    <td>
+                        <video controls width="300">
+                            <source src="@video.Url" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </td>
+                    <td>@video.Description</td>
+                    <td>
+                        <a href="@Url.Action("EditVideo", "Admin", new { id = video.Id })" class="btn btn-warning">Düzenle</a>
+
+                        <form asp-action="DeleteVideo" method="post" asp-route-id="@video.Id" style="display:inline;" onsubmit="return confirm('Bu videoyu silmek istedğinizden emin misiniz?');">
+                            <input type="hidden" name="id" value="@video.Id" />
+                            <button type="submit" class="btn btn-danger">Sil</button>
+
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <a href="@Url.Action("UploadVideo", "Admin")" class="btn btn-primary">Yeni Video Ekle</a>
+
+    </table>
+}
+else
+{
+    <p>No videos available.</p>
+    <a href="@Url.Action("UploadVideo", "Admin")" class="btn btn-primary">Yeni Video Ekle</a>
+
+}

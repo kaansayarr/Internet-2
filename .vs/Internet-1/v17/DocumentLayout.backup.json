@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|c:\\users\\kaans\\onedrive\\masa\u00FCst\u00FC\\internet-1\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|solutionrelative:controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|c:\\users\\kaans\\onedrive\\masa\u00FCst\u00FC\\internet-1\\models\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|solutionrelative:models\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|c:\\users\\kaans\\onedrive\\masa\u00FCst\u00FC\\internet-1\\views\\video\\addvideo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|solutionrelative:views\\video\\addvideo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|c:\\users\\kaans\\onedrive\\masa\u00FCst\u00FC\\internet-1\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|solutionrelative:views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|c:\\users\\kaans\\onedrive\\masa\u00FCst\u00FC\\internet-1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|c:\\users\\kaans\\onedrive\\masa\u00FCst\u00FC\\internet-1\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|solutionrelative:views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|c:\\users\\kaans\\onedrive\\masa\u00FCst\u00FC\\internet-1\\controllers\\customusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|solutionrelative:controllers\\customusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|c:\\users\\kaans\\onedrive\\masa\u00FCst\u00FC\\internet-1\\views\\home\\testwithlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|solutionrelative:views\\home\\testwithlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|c:\\users\\kaans\\onedrive\\masa\u00FCst\u00FC\\internet-1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|c:\\users\\kaans\\onedrive\\masa\u00FCst\u00FC\\internet-1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|c:\\users\\kaans\\onedrive\\masa\u00FCst\u00FC\\internet-1\\controllers\\connectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|solutionrelative:controllers\\connectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|c:\\users\\kaans\\onedrive\\masa\u00FCst\u00FC\\internet-1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|c:\\users\\kaans\\onedrive\\masa\u00FCst\u00FC\\internet-1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|c:\\users\\kaans\\onedrive\\masa\u00FCst\u00FC\\internet-1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|c:\\users\\kaans\\onedrive\\masa\u00FCst\u00FC\\internet-1\\internet-1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|solutionrelative:internet-1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|c:\\users\\kaans\\onedrive\\masa\u00FCst\u00FC\\internet-1\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|c:\\users\\kaans\\onedrive\\masa\u00FCst\u00FC\\internet-1\\views\\admin\\editvideo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A83552-8C23-4F82-889D-E93F6CF0A9CB}|Internet-1.csproj|solutionrelative:views\\admin\\editvideo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Video.cs",
+              "DocumentMoniker": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Models\\Video.cs",
+              "RelativeDocumentMoniker": "Models\\Video.cs",
+              "ToolTip": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Models\\Video.cs",
+              "RelativeToolTip": "Models\\Video.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T18:09:34.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddVideo.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Views\\Video\\AddVideo.cshtml",
+              "RelativeDocumentMoniker": "Views\\Video\\AddVideo.cshtml",
+              "ToolTip": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Views\\Video\\AddVideo.cshtml",
+              "RelativeToolTip": "Views\\Video\\AddVideo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T18:08:36.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TestWithLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Views\\Home\\TestWithLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\TestWithLayout.cshtml",
+              "ToolTip": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Views\\Home\\TestWithLayout.cshtml",
+              "RelativeToolTip": "Views\\Home\\TestWithLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T18:06:45.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T18:06:44.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T18:06:41.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Internet-1.csproj",
+              "DocumentMoniker": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Internet-1.csproj",
+              "RelativeDocumentMoniker": "Internet-1.csproj",
+              "ToolTip": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Internet-1.csproj",
+              "RelativeToolTip": "Internet-1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-08T17:53:25.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:51:46.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAIBJwCsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T17:48:00.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditVideo.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Views\\Admin\\EditVideo.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditVideo.cshtml",
+              "ToolTip": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Views\\Admin\\EditVideo.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditVideo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T17:47:56.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T17:47:53.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T17:47:52.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConnectionHelper.cs",
+              "DocumentMoniker": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Controllers\\ConnectionHelper.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConnectionHelper.cs",
+              "ToolTip": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Controllers\\ConnectionHelper.cs",
+              "RelativeToolTip": "Controllers\\ConnectionHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:45:52.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomUserController.cs",
+              "DocumentMoniker": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Controllers\\CustomUserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomUserController.cs",
+              "ToolTip": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Controllers\\CustomUserController.cs",
+              "RelativeToolTip": "Controllers\\CustomUserController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:45:51.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:45:51.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:45:50.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VideoController.cs",
+              "DocumentMoniker": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Controllers\\VideoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VideoController.cs",
+              "ToolTip": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Controllers\\VideoController.cs",
+              "RelativeToolTip": "Controllers\\VideoController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwDIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:23:32.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\kaans\\OneDrive\\Masa\u00FCst\u00FC\\Internet-1\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAcwHUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:01:30.441Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
